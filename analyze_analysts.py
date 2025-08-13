@@ -26,7 +26,7 @@ current_folder = ("\\").join(__file__.split("\\")[:-1])
 analyst_folder = current_folder + "\\" + str(year) + " analyst predictions\\"
 
 # to start, we'll have to process the analyst prediction spreadsheets
-player_positions = ['dst', 'k', 'qb', 'rb', 'te', 'wr']
+player_positions = ['qb', 'rb', 'wr', 'te', 'k', 'dst']
 analysts = []
 
 # try to put it all in a single excel file
